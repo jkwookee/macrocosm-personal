@@ -5,7 +5,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: TorsoSplotchesL
 
 - type: marking
@@ -13,7 +13,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: TorsoSplotchesR
 
 - type: marking
@@ -21,7 +21,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: BackSpotBig
 
 - type: marking
@@ -29,7 +29,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: BackStripes
 
 - type: marking
@@ -37,7 +37,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Belly
 
 - type: marking
@@ -45,7 +45,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: ChestFluff
 
 - type: marking
@@ -53,7 +53,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Dormant
 
 - type: marking
@@ -61,7 +61,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Elated_1
 
 - type: marking
@@ -69,7 +69,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Elated_2
 
 - type: marking
@@ -77,7 +77,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Tormented_1
 
 - type: marking
@@ -85,7 +85,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Tormented_2
 
 - type: marking
@@ -93,7 +93,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Spikes
 
 - type: marking
@@ -101,7 +101,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Trans
 
 - type: marking
@@ -109,7 +109,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Fin
 
 - type: marking
@@ -117,7 +117,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Limpit
 
 - type: marking
@@ -125,7 +125,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Heart
 
 - type: marking
@@ -133,7 +133,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: StitchBelly
 
 - type: marking
@@ -141,7 +141,7 @@
   bodyPart: Chest
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/chest.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/chest.rsi
     state: Exo
 
 # Head
@@ -151,9 +151,9 @@
   bodyPart: HeadSide
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: EarsLong
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: EarsLongMiddle
 
 - type: marking
@@ -161,7 +161,7 @@
   bodyPart: HeadSide
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: HorseEars
 
 - type: marking
@@ -169,7 +169,7 @@
   bodyPart: Head
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: HeadSplotchL
 
 - type: marking
@@ -177,7 +177,7 @@
   bodyPart: Head
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: HeadSplotchR
 
 - type: marking
@@ -185,9 +185,9 @@
   bodyPart: HeadSide
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: EarsFloppy
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: EarsFloppyMiddle
 
 - type: marking
@@ -195,9 +195,9 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: Bell
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: String
 
 - type: marking
@@ -205,7 +205,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: Chompers
 
 - type: marking
@@ -213,7 +213,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: Tusks
 
 - type: marking
@@ -221,7 +221,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: Walrus
 
 - type: marking
@@ -229,7 +229,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: Antlers
 
 - type: marking
@@ -237,7 +237,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: LEyeHorn
 
 - type: marking
@@ -245,7 +245,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: REyeHorn
 
 - type: marking
@@ -253,7 +253,7 @@
   bodyPart: HeadSide
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: EarsPig
 
 - type: marking
@@ -261,9 +261,9 @@
   bodyPart: HeadSide
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: EarsSmall
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: EarsSmallMiddle
 
 - type: marking
@@ -271,9 +271,9 @@
   bodyPart: HeadSide
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: EarsUp
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: EarsUpMiddle
 
 - type: marking
@@ -281,7 +281,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: HornsLong
 
 - type: marking
@@ -289,7 +289,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: Eyebrows
 
 - type: marking
@@ -297,7 +297,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: HornsNub
 
 - type: marking
@@ -305,7 +305,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: Leaking_Eyes
 
 - type: marking
@@ -313,7 +313,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: Horn_Hawk
 
 - type: marking
@@ -321,7 +321,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: Uni_Horn
 
 - type: marking
@@ -329,7 +329,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: Prosthetic_Horns
 
 - type: marking
@@ -337,7 +337,7 @@
   bodyPart: HeadTop
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/head.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/head.rsi
     state: HornsRino
 
 # snout
@@ -347,7 +347,7 @@
   bodyPart: Snout
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: Snoot
 
 - type: marking
@@ -355,7 +355,7 @@
   bodyPart: Snout
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: NoseRing
 
 - type: marking
@@ -364,7 +364,7 @@
   groupWhitelist: [ Ungu ]
   forcedColoring: true
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: SnoutElephant
 
 - type: marking
@@ -373,7 +373,7 @@
   groupWhitelist: [ Ungu ]
   forcedColoring: true
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: SnoutHippo
 
 - type: marking
@@ -382,7 +382,7 @@
   groupWhitelist: [ Ungu ]
   forcedColoring: true
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: SnoutPig
 
 - type: marking
@@ -391,9 +391,9 @@
   groupWhitelist: [ Ungu ]
   forcedColoring: false
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: SnoutPig
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: TusksPig
 
 - type: marking
@@ -402,7 +402,7 @@
   groupWhitelist: [ Ungu ]
   forcedColoring: true
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: SnoutTapir
 
 - type: marking
@@ -411,7 +411,7 @@
   groupWhitelist: [ Ungu ]
   forcedColoring: true
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: SnoutWhale1
 
 - type: marking
@@ -420,7 +420,7 @@
   groupWhitelist: [ Ungu ]
   forcedColoring: true
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: SnoutWhale2
 
 - type: marking
@@ -429,9 +429,9 @@
   groupWhitelist: [ Ungu ]
   forcedColoring: false
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: Beluga
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: BelugaEyes
 
 - type: marking
@@ -440,9 +440,9 @@
   groupWhitelist: [ Ungu ]
   forcedColoring: false
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: OrcaBase
-  - sprite: _Impstation/Mobs/Customization/Ungu/snout.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/snout.rsi
     state: OrcaMarkings
 
 # Eyes
@@ -452,9 +452,9 @@
   bodyPart: Eyes
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/eyes.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/eyes.rsi
     state: EyesCyclops
-  - sprite: _Impstation/Mobs/Customization/Ungu/eyes.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/eyes.rsi
     state: EyesCyclopsWhite
 
 - type: marking
@@ -462,9 +462,9 @@
   bodyPart: Eyes
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/eyes.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/eyes.rsi
     state: EyesCyclops
-  - sprite: _Impstation/Mobs/Customization/Ungu/eyes.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/eyes.rsi
     state: EyesCyclopsWhite
   shader: unshaded
 
@@ -473,7 +473,7 @@
   bodyPart: Eyes
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/eyes.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/eyes.rsi
     state: EyesDots
   shader: unshaded
 
@@ -482,7 +482,7 @@
   bodyPart: Eyes
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/eyes.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/eyes.rsi
     state: EyesWater
 
 - type: marking
@@ -491,9 +491,9 @@
   groupWhitelist: [ Ungu ]
   forcedColoring: true
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/eyes.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/eyes.rsi
     state: EyesLarson
-  - sprite: _Impstation/Mobs/Customization/Ungu/eyes.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/eyes.rsi
     state: EyesLarsonSides
 
 # RArm
@@ -503,7 +503,7 @@
   bodyPart: RArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: RArmFluff
 
 - type: marking
@@ -511,7 +511,7 @@
   bodyPart: RArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: RArmSplotch
 
 - type: marking
@@ -519,7 +519,7 @@
   bodyPart: RArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: RArmStripes
 
 - type: marking
@@ -527,7 +527,7 @@
   bodyPart: RArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: RArmStitch
 
 - type: marking
@@ -535,7 +535,7 @@
   bodyPart: RArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: PRArm
 
 - type: marking
@@ -543,7 +543,7 @@
   bodyPart: RArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: SkinRArm
 
 - type: marking
@@ -551,7 +551,7 @@
   bodyPart: RArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: RArmSpotBig
 
 # RHand
@@ -561,7 +561,7 @@
   bodyPart: RHand
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: PRHand
 
 - type: marking
@@ -569,7 +569,7 @@
   bodyPart: RHand
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: SkinRHand
 
 # LArm
@@ -579,7 +579,7 @@
   bodyPart: LArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: LArmSplotch
 
 - type: marking
@@ -587,7 +587,7 @@
   bodyPart: LArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: LArmFluff
 
 - type: marking
@@ -595,7 +595,7 @@
   bodyPart: LArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: LArmStripes
 
 - type: marking
@@ -603,7 +603,7 @@
   bodyPart: LArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: LArmStitch
 
 - type: marking
@@ -611,7 +611,7 @@
   bodyPart: LArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: SkinLArm
 
 - type: marking
@@ -619,7 +619,7 @@
   bodyPart: LArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: PLArm
 
 - type: marking
@@ -627,7 +627,7 @@
   bodyPart: LArm
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: LArmSpotBig
 
 # LHand
@@ -637,7 +637,7 @@
   bodyPart: LHand
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: PLHand
 
 - type: marking
@@ -645,7 +645,7 @@
   bodyPart: LHand
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/arms.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/arms.rsi
     state: SkinLHand
 
 # RLeg
@@ -655,7 +655,7 @@
   bodyPart: RLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: RLegSplotch
 
 - type: marking
@@ -663,7 +663,7 @@
   bodyPart: RLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: RLegSplotches
 
 - type: marking
@@ -671,7 +671,7 @@
   bodyPart: RLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: RLegFluff
 
 - type: marking
@@ -679,7 +679,7 @@
   bodyPart: RLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: RLegStripes
 
 - type: marking
@@ -687,7 +687,7 @@
   bodyPart: RLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: StitchRLeg
 
 - type: marking
@@ -695,7 +695,7 @@
   bodyPart: RLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: PRLeg
 
 - type: marking
@@ -703,7 +703,7 @@
   bodyPart: RLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: RLegSpotBig
 
 - type: marking
@@ -711,7 +711,7 @@
   bodyPart: RLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: SkinRLeg
 
 # RFoot
@@ -721,7 +721,7 @@
   bodyPart: RFoot
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: HoovesBig
 
 - type: marking
@@ -729,7 +729,7 @@
   bodyPart: RFoot
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: HoofBigR
 
 - type: marking
@@ -737,7 +737,7 @@
   bodyPart: RFoot
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: Hooves
 
 - type: marking
@@ -745,7 +745,7 @@
   bodyPart: RFoot
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: HoofR
 
 - type: marking
@@ -753,7 +753,7 @@
   bodyPart: RFoot
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: PRHoof
 
 # LLeg
@@ -763,7 +763,7 @@
   bodyPart: LLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: LLegSplotch
 
 - type: marking
@@ -771,7 +771,7 @@
   bodyPart: LLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: LLegSplotches
 
 - type: marking
@@ -779,7 +779,7 @@
   bodyPart: LLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: LLegStripes
 
 - type: marking
@@ -787,7 +787,7 @@
   bodyPart: LLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: LLegFluff
 
 - type: marking
@@ -795,7 +795,7 @@
   bodyPart: LLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: SkinLLeg
 
 - type: marking
@@ -803,7 +803,7 @@
   bodyPart: LLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: PLLeg
 
 - type: marking
@@ -811,7 +811,7 @@
   bodyPart: LLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: StitchLLeg
 
 - type: marking
@@ -819,7 +819,7 @@
   bodyPart: LLeg
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: LLegSpotBig
 
 # LFoot
@@ -829,7 +829,7 @@
   bodyPart: LFoot
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: HoofBigL
 
 - type: marking
@@ -837,7 +837,7 @@
   bodyPart: LFoot
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: HoofL
 
 - type: marking
@@ -845,7 +845,7 @@
   bodyPart: LFoot
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/legs.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/legs.rsi
     state: PLHoof
 
 # UndergarmentBottom
@@ -860,7 +860,7 @@
         !type:SimpleColoring
         color: "#FFFFFF"
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/undergarments.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/undergarments.rsi
     state: Pants
 
 - type: marking
@@ -873,7 +873,7 @@
         !type:SimpleColoring
         color: "#FFFFFF"
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/undergarments.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/undergarments.rsi
     state: Bloomers
 
 - type: marking
@@ -886,7 +886,7 @@
         !type:SimpleColoring
         color: "#FFFFFF"
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/undergarments.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/undergarments.rsi
     state: Shorts
 
 # UndergarmentTop
@@ -901,7 +901,7 @@
         !type:SimpleColoring
         color: "#FFFFFF"
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/undergarments.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/undergarments.rsi
     state: BraStrapless
 
 - type: marking
@@ -914,7 +914,7 @@
         !type:SimpleColoring
         color: "#FFFFFF"
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/undergarments.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/undergarments.rsi
     state: Bra
 
 - type: marking
@@ -927,7 +927,7 @@
         !type:SimpleColoring
         color: "#FFFFFF"
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/undergarments.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/undergarments.rsi
     state: Binder
 
 - type: marking
@@ -940,7 +940,7 @@
         !type:SimpleColoring
         color: "#FFFFFF"
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/undergarments.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/undergarments.rsi
     state: Tee
 
 - type: marking
@@ -953,7 +953,7 @@
         !type:SimpleColoring
         color: "#FFFFFF"
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/undergarments.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/undergarments.rsi
     state: TeeCropped
 
 - type: marking
@@ -966,7 +966,7 @@
         !type:SimpleColoring
         color: "#FFFFFF"
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/undergarments.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/undergarments.rsi
     state: Vest
 
 # Tail
@@ -976,9 +976,9 @@
   bodyPart: Tail
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/tail.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/tail.rsi
     state: TailLong
-  - sprite: _Impstation/Mobs/Customization/Ungu/tail.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/tail.rsi
     state: TailLong_Fluff
 
 
@@ -987,7 +987,7 @@
   bodyPart: Tail
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/tail.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/tail.rsi
     state: TailNub
 
 - type: marking
@@ -995,9 +995,9 @@
   bodyPart: Tail
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/tail.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/tail.rsi
     state: TailFluffy_1
-  - sprite: _Impstation/Mobs/Customization/Ungu/tail.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/tail.rsi
     state: TailFluffy_2
 
 - type: marking
@@ -1005,7 +1005,7 @@
   bodyPart: Tail
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/tail.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/tail.rsi
     state: Bone_Tail
 
 - type: marking
@@ -1013,7 +1013,7 @@
   bodyPart: Tail
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/tail.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/tail.rsi
     state: Bushy_Tail
 
 - type: marking
@@ -1021,7 +1021,7 @@
   bodyPart: Tail
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/tail.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/tail.rsi
     state: Prosthetic_Tail
 
 # Hair
@@ -1031,7 +1031,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: Single_Strand
 
 - type: marking
@@ -1039,7 +1039,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: Strands
 
 - type: marking
@@ -1047,7 +1047,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: Tonsure
 
 - type: marking
@@ -1055,7 +1055,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: HeadFluff
 
 - type: marking
@@ -1063,7 +1063,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: Mane
 
 - type: marking
@@ -1071,7 +1071,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: Wooly_Long
 
 - type: marking
@@ -1079,7 +1079,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: Wooly_Medium
 
 - type: marking
@@ -1087,7 +1087,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: Wooly_Short
 
 - type: marking
@@ -1095,7 +1095,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: RegalMane
 
 - type: marking
@@ -1103,7 +1103,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: LooseMane
 
 - type: marking
@@ -1111,7 +1111,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: Pony
 
 - type: marking
@@ -1119,7 +1119,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: Bun
 
 - type: marking
@@ -1127,7 +1127,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: BraidedMane
 
 - type: marking
@@ -1135,7 +1135,7 @@
   bodyPart: Hair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/hair.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/hair.rsi
     state: Ponytail
 
 # FacialHair
@@ -1145,7 +1145,7 @@
   bodyPart: FacialHair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/beard.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/beard.rsi
     state: LongChops
 
 - type: marking
@@ -1153,7 +1153,7 @@
   bodyPart: FacialHair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/beard.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/beard.rsi
     state: ShortChops
 
 - type: marking
@@ -1161,7 +1161,7 @@
   bodyPart: FacialHair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/beard.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/beard.rsi
     state: ThickBraid
 
 - type: marking
@@ -1169,7 +1169,7 @@
   bodyPart: FacialHair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/beard.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/beard.rsi
     state: TwinBraids
 
 - type: marking
@@ -1177,5 +1177,5 @@
   bodyPart: FacialHair
   groupWhitelist: [ Ungu ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Ungu/beard.rsi
+  - sprite: _MACRO/Mobs/Customization/Ungu/beard.rsi
     state: Wooly

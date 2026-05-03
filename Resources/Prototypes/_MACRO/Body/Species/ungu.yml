@@ -32,10 +32,16 @@
     enum.HumanoidVisualLayers.Chest:
       limit: 3
       required: false
-    enum.HumanoidVisualLayers.Arms:
+    enum.HumanoidVisualLayers.LArm:
       limit: 4
       required: false
-    enum.HumanoidVisualLayers.Legs:
+    enum.HumanoidVisualLayers.RArm:
+      limit: 4
+      required: false
+    enum.HumanoidVisualLayers.LLeg:
+      limit: 4
+      required: false
+    enum.HumanoidVisualLayers.RLeg:
       limit: 4
       required: false
     enum.HumanoidVisualLayers.Snout:
@@ -157,6 +163,9 @@
   - type: Pullable
   - type: StatusIcon
     bounds: -0.5,-0.5,0.5,0.7
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 2.9
+    baseWalkSpeed: 1.3
   - type: CombatModeSprint
     stunSeconds: 1
     doImpactDamage: true
@@ -196,7 +205,7 @@
     baseDecayRate: 0.0124 # 3/4 as fast as a human
   - type: Thirst
   - type: Icon
-    sprite: _Impstation/Mobs/Species/Ungu/parts.rsi
+    sprite: _MACRO/Mobs/Species/Ungu/parts.rsi
     state: full
   - type: Body
     prototype: Ungu
@@ -248,23 +257,13 @@
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
-        sprite: _Impstation/Mobs/Effects/ungu_brute_damage.rsi
+        sprite: _MACRO/Mobs/Effects/ungu_brute_damage.rsi
         color: "#ff624a"
   - type: Speech
     speechSounds: Ungu
     allowedEmotes: ['Moo']
   - type: TypingIndicator
     proto: Ungu
-  - type: HumanoidAppearance
-    species: Ungu
-    hideLayersOnEquip:
-    - Hair
-    - HeadTop
-    - HeadSide
-    - Snout
-    - SnoutCover
-    - LFoot # those are his hooves you bitch
-    - RFoot
   - type: JumpAbility
     action: ActionDash
     jumpDistance: 4
@@ -340,27 +339,20 @@
   id: OrganUnguArmRight
 
 - type: entity
-  parent: [ OrganBaseHandLeftInactive, OrganUnguExternal ]
+  parent: [ OrganBaseHandLeft, OrganUnguExternal ]
   id: OrganUnguHandLeft
 
 - type: entity
-  parent: [ OrganBaseHandRightInactive, OrganUnguExternal ]
+  parent: [ OrganBaseHandRight, OrganUnguExternal ]
   id: OrganUnguHandRight
 
 - type: entity
   parent: [ OrganBaseLegLeft, OrganUnguExternal ]
   id: OrganUnguLegLeft
-  components:
-  - type: MovementBodyPart
-    sprintSpeed: 2.9
-    walkSpeed: 1.3
 
 - type: entity
   parent: [ OrganBaseLegRight, OrganUnguExternal ]
   id: OrganUnguLegRight
-  - type: MovementBodyPart
-    sprintSpeed: 2.9
-    walkSpeed: 1.3
 
 - type: entity
   parent: [ OrganBaseFootLeft, OrganUnguExternal ]
@@ -427,24 +419,6 @@
       - UnguFood
       - Flower
       - Mushroom
-  - type: Tag
-    tags:
-    - Meat
-    - Organ
-    - Stomach
-- type: entity
-  id: PartUngu
-  parent: [BaseItem, BasePart]
-  name: "ungu body part"
-  abstract: true
-  components:
-  - type: Extractable
-    juiceSolution:
-      reagents:
-      - ReagentId: Fat
-        Quantity: 3
-      - ReagentId: Blood
-        Quantity: 10
 
 - type: entity
   parent: [ OrganBaseLiver, OrganUnguInternal, OrganHumanMetabolizer ]
