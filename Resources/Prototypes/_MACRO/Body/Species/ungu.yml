@@ -121,7 +121,6 @@
         32:
           sprite: _MACRO/Mobs/Species/Ungu/displacement.rsi
           state: inhand_right
-
   - type: InitialBody
     organs:
       Torso: OrganUnguTorso
@@ -144,7 +143,6 @@
       Stomach: OrganUnguStomach
       Liver: OrganUnguLiver
       Kidneys: OrganUnguKidneys
-
   - type: HumanoidProfile
     species: Ungu
 
@@ -276,3 +274,182 @@
         pitch: .5
         volume: -3
         variation: 0.05
+
+- type: entity
+  parent: OrganBase
+  id: OrganUngu
+  abstract: true
+
+- type: entity
+  id: OrganUnguMetabolizer
+  abstract: true
+  components:
+  - type: Metabolizer # just copying this shit wholesale from the stomach and hoping it works
+    maxReagents: 3
+    metabolizerTypes: [ Human ]
+    groups:
+    - id: Food
+    - id: Drink
+
+- type: entity
+  id: OrganUnguVisual
+  abstract: true
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: _MACRO/Mobs/Species/Ungu/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: Ungu
+
+- type: entity
+  parent: [ OrganUngu, OrganUnguVisual ]
+  id: OrganUnguExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _MACRO/Mobs/Species/Ungu/parts.rsi
+
+- type: entity
+  parent: OrganUngu
+  id: OrganUnguInternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+
+- type: entity
+  parent: [ OrganBaseTorso, OrganUnguExternal ]
+  id: OrganUnguTorso
+
+- type: entity
+  parent: [ OrganBaseHead, OrganUnguExternal ]
+  id: OrganUnguHead
+  components:
+  - type: HandOrgan
+    handID: left
+    data:
+      location: Left
+
+- type: entity
+  parent: [ OrganBaseArmLeft, OrganUnguExternal ]
+  id: OrganUnguArmLeft
+
+- type: entity
+  parent: [ OrganBaseArmRight, OrganUnguExternal ]
+  id: OrganUnguArmRight
+
+- type: entity
+  parent: [ OrganBaseHandLeftInactive, OrganUnguExternal ]
+  id: OrganUnguHandLeft
+
+- type: entity
+  parent: [ OrganBaseHandRightInactive, OrganUnguExternal ]
+  id: OrganUnguHandRight
+
+- type: entity
+  parent: [ OrganBaseLegLeft, OrganUnguExternal ]
+  id: OrganUnguLegLeft
+  components:
+  - type: MovementBodyPart
+    sprintSpeed: 2.9
+    walkSpeed: 1.3
+
+- type: entity
+  parent: [ OrganBaseLegRight, OrganUnguExternal ]
+  id: OrganUnguLegRight
+  - type: MovementBodyPart
+    sprintSpeed: 2.9
+    walkSpeed: 1.3
+
+- type: entity
+  parent: [ OrganBaseFootLeft, OrganUnguExternal ]
+  id: OrganUnguFootLeft
+
+- type: entity
+  parent: [ OrganBaseFootRight, OrganUnguExternal ]
+  id: OrganUnguFootRight
+
+- type: entity
+  parent: [ OrganBaseBrain, OrganUnguInternal ]
+  id: OrganUnguBrain
+
+- type: entity
+  parent: [ OrganBaseEyes, OrganUnguInternal, OrganUnguExternal ]
+  id: OrganUnguEyes
+
+- type: entity
+  parent: [ OrganBaseTongue, OrganUnguInternal ]
+  id: OrganUnguTongue
+
+- type: entity
+  parent: [ OrganBaseAppendix, OrganUnguInternal ]
+  id: OrganUnguAppendix
+
+- type: entity
+  parent: [ OrganBaseEars, OrganUnguInternal ]
+  id: OrganUnguEars
+
+- type: entity
+  parent: [ OrganBaseLungs, OrganUnguInternal, OrganHumanMetabolizer ]
+  id: OrganUnguLungs
+
+- type: entity
+  parent: [ OrganBaseHeart, OrganUnguInternal, OrganHumanMetabolizer ]
+  id: OrganUnguHeart
+
+- type: entity
+  parent: [ OrganBaseStomach, OrganUnguInternal, OrganUnguMetabolizer ]
+  id: OrganUnguStomach
+  description: A lot going on here.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      stomach:
+        maxVol: 200
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 12
+  - type: Stomach
+    isSpecialDigestibleExclusive: true
+    specialDigestible:
+      tags:
+      - Fruit
+      - Pill
+      - Crayon
+      - Paper
+      - BananaPeel
+      - Ruminant
+      - Wheat
+      - Vegetable
+      - UnguFood
+      - Flower
+      - Mushroom
+  - type: Tag
+    tags:
+    - Meat
+    - Organ
+    - Stomach
+- type: entity
+  id: PartUngu
+  parent: [BaseItem, BasePart]
+  name: "ungu body part"
+  abstract: true
+  components:
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 3
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  parent: [ OrganBaseLiver, OrganUnguInternal, OrganHumanMetabolizer ]
+  id: OrganUnguLiver
+
+- type: entity
+  parent: [ OrganBaseKidneys, OrganUnguInternal, OrganHumanMetabolizer ]
+  id: OrganUnguKidneys
