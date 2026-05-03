@@ -8,6 +8,7 @@ using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Network;
 using Robust.Shared.Utility;
+using Content.Shared._MACRO.Tools.Components; // macro
 
 namespace Content.Shared.Tools.Systems;
 

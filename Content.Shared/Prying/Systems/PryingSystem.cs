@@ -11,6 +11,7 @@ using Content.Shared.Verbs;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Serialization;
 using PryUnpoweredComponent = Content.Shared.Prying.Components.PryUnpoweredComponent;
+using Content.Shared._MACRO.Tools.Components; // macro
 
 namespace Content.Shared.Prying.Systems;
 
