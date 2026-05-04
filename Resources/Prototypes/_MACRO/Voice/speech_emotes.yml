@@ -9,3 +9,14 @@
   - hiss
   - hisses
   - hissed
+
+- type: emote
+  id: Moo
+  name: chat-emote-name-moo
+  category: General
+  available: false
+  chatMessages: ["chat-emote-msg-moo"]
+  chatTriggers:
+    - moo
+    - moos
+    - mooed
