@@ -57,11 +57,6 @@
 - type: emoteSounds
   id: UnguBodyEmotes
   sounds:
-    Jump:
-      path: /Audio/_MACRO/Effects/Emotes/jumpthud.ogg
-      params:
-        volume: -1
-        variation: 0.1
     Clap:
       collection: Claps
       params:

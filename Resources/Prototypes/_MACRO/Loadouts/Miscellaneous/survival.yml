@@ -44,15 +44,6 @@
     - BoxSurvivalEngineeringUngu
     
 - type: loadout
-  id: EmergencyWheatCommand
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: Cow
-  storage:
-    back:
-    - BoxSurvivalCommandUngu 
-    
-- type: loadout
   id: EmergencyWheatSecurity
   effects:
   - !type:GroupLoadoutEffect

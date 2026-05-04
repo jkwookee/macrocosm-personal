@@ -6,7 +6,7 @@
 
 - type: markingsGroup
   id: Ungu
-  onlyWhitelisted: true
+  onlyGroupWhitelisted: true
   limits:
     enum.HumanoidVisualLayers.Hair:
       limit: 2
