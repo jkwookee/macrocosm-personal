@@ -40,10 +40,6 @@
       collection: Weh
     Hew:
       collection: Hew
-    Wuhey:
-      collection: Wuhey
-    Ungh:
-      collection: Ungh
     Gasp:
       path: /Audio/_MACRO/Voice/Ungu/ungu_gasp.ogg
     DefaultDeathgasp:
@@ -55,9 +51,7 @@
     Moo:
       path: /Audio/Animals/cow_moo.ogg
       params:
-        variation: 0.2
-    Jump:
-      path: /Audio/_MACRO/Effects/Emotes/jumpthud.ogg        
+        variation: 0.2 
 
 # body emotes
 - type: emoteSounds
@@ -82,10 +76,3 @@
         volume: -3
     Salute:
       collection: Salutes
-    Crack:
-      collection: Cracks
-    Blink:
-      collection: Blinks
-      params:
-        volume: -3
-        variation: 0.1

@@ -466,7 +466,6 @@
     state: EyesCyclops
   - sprite: _MACRO/Mobs/Customization/Ungu/eyes.rsi
     state: EyesCyclopsWhite
-  shader: unshaded
 
 - type: marking
   id: EyesDotsGlowUngu
@@ -475,7 +474,6 @@
   sprites:
   - sprite: _MACRO/Mobs/Customization/Ungu/eyes.rsi
     state: EyesDots
-  shader: unshaded
 
 - type: marking
   id: EyesWaterUngu

@@ -207,9 +207,6 @@
   - type: Icon
     sprite: _MACRO/Mobs/Species/Ungu/parts.rsi
     state: full
-  - type: Body
-    prototype: Ungu
-    requiredLegs: 2
   - type: Butcherable
     butcheringType: Spike
     spawned:

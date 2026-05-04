@@ -62,31 +62,13 @@
     - BoxSurvivalSecurityUngu
     
 - type: loadout
-  id: EmergencyWheatBrigmedic
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: Cow
-  storage:
-    back:
-    - BoxSurvivalBrigmedicUngu  
-    
-- type: loadout
   id: EmergencyWheatSyndicate
   effects:
   - !type:GroupLoadoutEffect
     proto: Cow
   storage:
     back:
-    - BoxSurvivalSyndicateUngu 
-    
-- type: loadout
-  id: EmergencyWheatExtendedCommand
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: Cow
-  storage:
-    back:
-    - BoxSurvivalEngineeringCommandUngu 
+    - BoxSurvivalSyndicateUngu
     
 - type: loadout
   id: LoadoutSpeciesEVAUngu
@@ -102,4 +84,4 @@
   - !type:GroupLoadoutEffect
     proto: Cow
   equipment:
-    pocket1: DoubleEmergencyOxygenTankFilled   
+    pocket1: DoubleEmergencyOxygenTankFilled
