@@ -171,8 +171,6 @@
     doImpactDamage: true
     beginCombatMessage: "ungu-begin-combat-popup"
   - type: CombatMode
-  - type: CombatModeVisuals
-    hideBaseLayer: true
   - type: MeleeWeapon
     attackRate: 0.6
     soundHit:
