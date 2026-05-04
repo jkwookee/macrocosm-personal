@@ -123,6 +123,11 @@
     - state: baklava
   - type: SliceableFood
     slice: FoodPieBaklavaSlice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: slice of baklava
@@ -136,6 +141,11 @@
       - nutty
   - type: Sprite
     state: baklava-slice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like pie, nuts.
 
 - type: entity
@@ -486,6 +496,11 @@
           Quantity: 3
         - ReagentId: Vitamin
           Quantity: 4
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like pie, mushrooms.
 
 - type: entity
@@ -499,6 +514,11 @@
       - mushroom
   - type: Sprite
     state: plump
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like pie, mushrooms.
 
 # Tart

@@ -177,6 +177,11 @@
               Quantity: 2
             - ReagentId: Sugar
               Quantity: 2
+    # macro edit start - allow ungu to eat
+    - type: Tag
+      tags:
+      - UnguFood
+    # macro edit end
 
 - type: entity
   name: flavorless snowcone

@@ -80,6 +80,11 @@
     - state: margherita
   - type: SliceableFood
     slice: FoodPizzaMargheritaSlice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: slice of margherita pizza
@@ -97,6 +102,11 @@
     - state: margherita-slice
   - type: Item
     heldPrefix: margherita-slice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: meat pizza
@@ -160,6 +170,11 @@
     - state: mushroom
   - type: SliceableFood
     slice: FoodPizzaMushroomSlice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: slice of mushroom pizza
@@ -177,6 +192,11 @@
     - state: mushroom-slice
   - type: Item
     heldPrefix: mushroom-slice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like crust, tomato, cheese, mushroom.
 
 - type: entity
@@ -209,6 +229,11 @@
           Quantity: 5
         - ReagentId: Vitamin
           Quantity: 5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: slice of vegetable pizza
@@ -241,6 +266,11 @@
           Quantity: 1
         - ReagentId: Vitamin
           Quantity: 1
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 # Tastes like crust, tomato, cheese, carrot.
 
@@ -333,6 +363,11 @@
           Quantity: 20
         - ReagentId: THC
           Quantity: 30
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: slice of dank pizza
@@ -360,6 +395,11 @@
           Quantity: 3.5
         - ReagentId: THC
           Quantity: 5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like crust, tomato, cheese, meat, satisfaction.
 
 - type: entity
@@ -731,6 +771,11 @@
           Quantity: 12
         - ReagentId: Pax
           Quantity: 8
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: slice of world peazza
@@ -758,3 +803,8 @@
           Quantity: 2
         - ReagentId: Pax
           Quantity: 1.5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end

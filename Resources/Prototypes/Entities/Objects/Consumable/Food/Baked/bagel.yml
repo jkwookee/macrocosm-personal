@@ -49,6 +49,11 @@
           Quantity: 5
         - ReagentId: Nutriment
           Quantity: 5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   parent: FoodBagelBase

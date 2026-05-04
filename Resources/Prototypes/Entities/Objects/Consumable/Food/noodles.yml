@@ -35,6 +35,11 @@
       - pasta
   - type: Sprite
     state: boiled
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like pasta.
 
 - type: entity
@@ -192,4 +197,9 @@
         reagents:
         - ReagentId: Nutriment
           Quantity: 23
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like pasta, butter.

@@ -201,6 +201,11 @@
         reagents:
         - ReagentId: Nutriment
           Quantity: 15
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like bread, banana, nut.
 
 - type: entity
@@ -223,6 +228,11 @@
         reagents:
         - ReagentId: Nutriment
           Quantity: 3
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: cream cheese bread
@@ -249,6 +259,11 @@
           Quantity: 20
         - ReagentId: Vitamin
           Quantity: 5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like bread, cheese.
 
 - type: entity
@@ -274,6 +289,11 @@
           Quantity: 4
         - ReagentId: Vitamin
           Quantity: 1.2
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: meat bread
@@ -361,6 +381,11 @@
           Quantity: 5
         - ReagentId: MuteToxin
           Quantity: 5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like bread, cheese.
 
 - type: entity
@@ -389,6 +414,11 @@
           Quantity: 1
         - ReagentId: MuteToxin
           Quantity: 1
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: bread
@@ -401,6 +431,11 @@
     - state: plain
   - type: SliceableFood
     slice: FoodBreadPlainSlice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: bread slice
@@ -411,6 +446,11 @@
   - type: Sprite
     layers:
     - state: plain-slice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: sausage bread
@@ -555,6 +595,11 @@
           Quantity: 30
         - ReagentId: Protein
           Quantity: 12
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like bread, tofu.
 
 - type: entity
@@ -579,6 +624,11 @@
           Quantity: 6
         - ReagentId: Vitamin
           Quantity: 2.4
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: xeno meat bread
@@ -682,6 +732,11 @@
     damage:
       types:
         Blunt: 1 # bonk
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like France.
 
 - type: entity
@@ -748,6 +803,11 @@
           Quantity: 0.1
         - ReagentId: Blackpepper
           Quantity: 0.1
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   parent: FoodBreadBaguetteSlice
@@ -801,6 +861,11 @@
           Quantity: 5
         - ReagentId: Vitamin
           Quantity: 1
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like bread, butter.
 
 - type: entity
@@ -824,6 +889,11 @@
           Quantity: 4
         - ReagentId: Vitamin
           Quantity: 2
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like bread, butter.
 
 - type: entity
@@ -848,6 +918,11 @@
           Quantity: 6
         - ReagentId: Vitamin
           Quantity: 5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like garlic, Italy.
 
 - type: entity
@@ -872,6 +947,11 @@
           Quantity: 4
         - ReagentId: Vitamin
           Quantity: 4
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like garlic, Italy.
 
 - type: entity
@@ -885,6 +965,7 @@
     - state: moldy-slice
   - type: Tag
     tags:
+    - UnguFood # macro edit - allow ungu to eat
     - Trash
   - type: SolutionContainerManager
     solutions:
@@ -917,6 +998,11 @@
           Quantity: 2
         - ReagentId: Wine
           Quantity: 5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like decaying fungus.
 
 - type: entity

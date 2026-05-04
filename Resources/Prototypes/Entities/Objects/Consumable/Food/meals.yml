@@ -125,6 +125,11 @@
           Quantity: 15
         - ReagentId: TableSalt
           Quantity: 2
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like nachos.
 
 - type: entity
@@ -153,6 +158,11 @@
           Quantity: 20
         - ReagentId: TableSalt
           Quantity: 2
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like nachos, cheese.
 
 - type: entity
@@ -184,6 +194,11 @@
           Quantity: 7
         - ReagentId: Vitamin
           Quantity: 5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 # Tastes like nachos, hot pepper.
 
 - type: entity
@@ -578,6 +593,11 @@
         - cheesy
     - type: Sprite
       state: queso
+    # macro edit start - allow ungu to eat
+    - type: Tag
+      tags:
+      - UnguFood
+    # macro edit end
 # Its queso! Everyone loves queso... Right?.
 
 - type: entity

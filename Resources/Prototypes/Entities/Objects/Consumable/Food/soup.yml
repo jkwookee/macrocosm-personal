@@ -392,6 +392,11 @@
     layers:
     - state: bowl
     - state: rice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: egg-fried rice
@@ -422,6 +427,7 @@
     tags:
     - Meat
     - Soup
+    - UnguFood # macro edit - allow ungu to eat
 
 - type: entity
   name: rice and pork
@@ -482,6 +488,11 @@
           Quantity: 5
         - ReagentId: Sugar
           Quantity: 5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: black-eyed gumbo
@@ -542,6 +553,11 @@
           Quantity: 2
         - ReagentId: Milk
           Quantity: 10
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: space liberty duff
@@ -583,6 +599,11 @@
           Quantity: 6
         - ReagentId: Amatoxin
           Quantity: 6
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 # Soup
 
@@ -1033,6 +1054,11 @@
             Quantity: 5
           - ReagentId: Milk
             Quantity: 5
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: beet soup

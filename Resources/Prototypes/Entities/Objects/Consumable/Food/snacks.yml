@@ -114,6 +114,7 @@
   - type: Tag
     tags:
       - FoodSnack
+      - UnguFood # macro edit - allow ungu to eat
   - type: SpawnItemsOnUse
     items:
       - id: FoodPacketChocolateTrash
@@ -139,6 +140,7 @@
     tags:
       - FoodSnack
       - ReptilianFood
+      - UnguFood # macro edit - allow ungu to eat
   - type: SolutionContainerManager
     solutions:
       food:
@@ -228,6 +230,11 @@
   - type: Edible
     trash:
     - FoodPacketPopcornTrash
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: 4no raisins
@@ -266,6 +273,11 @@
   - type: Edible
     trash:
     - FoodPacketSemkiTrash
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: sus jerky
@@ -303,6 +315,11 @@
   - type: Edible
     trash:
     - FoodPacketSyndiTrash
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   parent: FoodSnackBase
@@ -376,6 +393,11 @@
   - type: Edible
     trash:
     - FoodPacketChowMeinTrash
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   parent: FoodSnackBase
@@ -407,6 +429,11 @@
   - type: Edible
     trash:
     - FoodPacketDanDanTrash
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   parent: FoodSnackBase
@@ -434,6 +461,11 @@
   - type: Edible
     trash:
     - FoodCookieFortune
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   parent: BaseItem
@@ -551,6 +583,7 @@
     tags:
     - FoodSnack
     - ReptilianFood
+    - UnguFood # macro edit - allow ungu to eat
   - type: SolutionContainerManager
     solutions:
       food:

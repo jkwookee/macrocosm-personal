@@ -25,6 +25,11 @@
         amount: 1
       - id: FoodBreadBunBottom
         amount: 1
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   parent: FoodBreadSliceBase

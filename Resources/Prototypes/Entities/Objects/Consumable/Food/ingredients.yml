@@ -725,6 +725,11 @@
   - type: SliceableFood
     count: 3
     slice: FoodButterSlice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   parent: FoodBakingBase
@@ -746,6 +751,7 @@
   - type: Tag
     tags:
     - Slice
+    - UnguFood # macro edit - allow ungu to eat
 
 - type: entity
   name: stick of cannabis butter
@@ -767,6 +773,11 @@
           Quantity: 82
   - type: Extractable
     grindableSolutionName: food
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   name: cheese wheel
@@ -784,6 +795,11 @@
   - type: SliceableFood
     count: 4
     slice: FoodCheeseSlice
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   parent: FoodBakingBase
@@ -806,6 +822,7 @@
   - type: Tag
     tags:
     - Slice
+    - UnguFood # macro edit - allow ungu to eat
   - type: FoodSequenceElement
     entries:
       Taco: CheeseTaco
@@ -847,6 +864,11 @@
           Quantity: 3
         - ReagentId: Vitamin
           Quantity: 0.6
+  # macro edit start - allow ungu to eat
+  - type: Tag
+    tags:
+    - UnguFood
+  # macro edit end
 
 - type: entity
   parent: FoodBakingBase
@@ -874,6 +896,7 @@
   - type: Tag
     tags:
     - Slice
+    - UnguFood # macro edit - allow ungu to eat
 
 - type: entity
   parent: FoodBakingBase
