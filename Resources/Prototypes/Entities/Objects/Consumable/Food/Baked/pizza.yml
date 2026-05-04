@@ -83,6 +83,7 @@
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
+    - Pizza
     - UnguFood
   # macro edit end
 
@@ -105,6 +106,7 @@
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
+    - Pizza
     - UnguFood
   # macro edit end
 
@@ -173,6 +175,7 @@
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
+    - Pizza
     - UnguFood
   # macro edit end
 
@@ -195,6 +198,7 @@
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
+    - Pizza
     - UnguFood
   # macro edit end
 # Tastes like crust, tomato, cheese, mushroom.
@@ -232,6 +236,7 @@
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
+    - Pizza
     - UnguFood
   # macro edit end
 
@@ -269,6 +274,7 @@
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
+    - Pizza
     - UnguFood
   # macro edit end
 
@@ -366,6 +372,7 @@
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
+    - Pizza
     - UnguFood
   # macro edit end
 
@@ -398,6 +405,7 @@
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
+    - Pizza
     - UnguFood
   # macro edit end
 # Tastes like crust, tomato, cheese, meat, satisfaction.
@@ -774,6 +782,7 @@
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
+    - Pizza
     - UnguFood
   # macro edit end
 
@@ -806,5 +815,6 @@
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
+    - Pizza
     - UnguFood
   # macro edit end
