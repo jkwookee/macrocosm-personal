@@ -224,7 +224,6 @@
   - type: BodyEmotes
     soundsId: UnguBodyEmotes
   - type: Damageable
-    damageContainer: Biological
     damageModifierSet: Ungu
   - type: TemperatureDamage
     heatDamageThreshold: 320
@@ -242,7 +241,7 @@
     bloodReferenceSolution:
       reagents:
       - ReagentId: Blood
-        Quantity: 300
+        Quantity: 600
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
