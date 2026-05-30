@@ -3,7 +3,7 @@
 
 - type: entity
   abstract: true
-  parent: FoodInjectableBase
+  parent: [SolutionNormal, FoodInjectableBase]
   id: FoodBreadBase
   components:
   - type: Item
@@ -16,16 +16,14 @@
   - type: Tag
     tags:
     - Bread
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 26
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 20
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 80
 
 - type: entity
-  parent: FoodBreadBase
+  parent: [SolutionVeryTiny, FoodBreadBase]
   id: FoodBreadSliceBase
   abstract: true
   components:
@@ -38,13 +36,11 @@
     tags:
     - Bread
     - Slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 8
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 4
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 10 # 1/8 of a loaf of bread
 
 # Custom Bread Example
 
@@ -61,6 +57,7 @@
     - state: alpha-filling
       color: "#FF613F"
   - type: SliceableFood
+    count: 8
     slice: FoodBreadVolcanicSlice
 
 - type: entity
@@ -92,6 +89,7 @@
     layers:
     - state: banana
   - type: SliceableFood
+    count: 8
     slice: FoodBreadBananaSlice
   - type: Tag
     tags:
@@ -134,20 +132,19 @@
     layers:
     - state: cotton
   - type: SliceableFood
+    count: 8
     slice: FoodBreadCottonSlice
   - type: Tag
     tags:
     - ClothMade
     - Bread
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 26
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 10
-        - ReagentId: Fiber
-          Quantity: 10
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 40
+      - ReagentId: Fiber
+        Quantity: 40
 
 - type: entity
   name: cotton bread slice
@@ -169,15 +166,13 @@
     - ClothMade
     - Bread
     - Slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 8
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 2
-        - ReagentId: Fiber
-          Quantity: 2
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 5
+      - ReagentId: Fiber
+        Quantity: 5
 
 - type: entity
   name: cornbread
@@ -193,14 +188,8 @@
     layers:
     - state: cornbread
   - type: SliceableFood
+    count: 8
     slice: FoodBreadCornSlice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 20
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 15
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
@@ -221,13 +210,6 @@
   - type: Sprite
     layers:
     - state: cornbread-slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 5
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 3
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
@@ -249,21 +231,20 @@
     layers:
     - state: creamcheese
   - type: SliceableFood
+    count: 8
     slice: FoodBreadCreamcheeseSlice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 35
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 20
-        - ReagentId: Vitamin
-          Quantity: 5
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 100
+      - ReagentId: Vitamin
+        Quantity: 4
 # Tastes like bread, cheese.
 
 - type: entity
@@ -280,20 +261,18 @@
   - type: Sprite
     layers:
     - state: creamcheese-slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 10
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 4
-        - ReagentId: Vitamin
-          Quantity: 1.2
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 12.5
+      - ReagentId: Vitamin
+        Quantity: 0.5
 
 - type: entity
   name: meat bread
@@ -309,16 +288,17 @@
     layers:
     - state: meat
   - type: SliceableFood
+    count: 8
     slice: FoodBreadMeatSlice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 45
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 30
-        - ReagentId: Vitamin
-          Quantity: 5
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 104
+      - ReagentId: Protein
+        Quantity: 4
+      - ReagentId: Vitamin
+        Quantity: 4
   - type: Tag
     tags:
     - Meat
@@ -338,15 +318,15 @@
   - type: Sprite
     layers:
     - state: meat-slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 10
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 6
-        - ReagentId: Vitamin
-          Quantity: 1.2
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 13
+      - ReagentId: Protein
+        Quantity: 0.5
+      - ReagentId: Vitamin
+        Quantity: 0.5
   - type: Tag
     tags:
     - Meat
@@ -367,25 +347,22 @@
     layers:
     - state: mimana
   - type: SliceableFood
+    count: 8
     slice: FoodBreadMimanaSlice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 40
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 15
-        - ReagentId: Vitamin
-          Quantity: 5
-        - ReagentId: Nothing
-          Quantity: 5
-        - ReagentId: MuteToxin
-          Quantity: 5
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 96
+      - ReagentId: Vitamin
+        Quantity: 4
+      - ReagentId: MuteToxin
+        Quantity: 10
 # Tastes like bread, cheese.
 
 - type: entity
@@ -401,24 +378,20 @@
   - type: Sprite
     layers:
     - state: mimana-slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 10
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 3
-        - ReagentId: Vitamin
-          Quantity: 1
-        - ReagentId: Nothing
-          Quantity: 1
-        - ReagentId: MuteToxin
-          Quantity: 1
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 12
+      - ReagentId: Vitamin
+        Quantity: 0.5
+      - ReagentId: MuteToxin
+        Quantity: 1.25
 
 - type: entity
   name: bread
@@ -430,6 +403,7 @@
     layers:
     - state: plain
   - type: SliceableFood
+    count: 8
     slice: FoodBreadPlainSlice
   # macro edit start - allow ungu to eat
   - type: Tag
@@ -466,18 +440,15 @@
     layers:
     - state: sausage
   - type: SliceableFood
+    count: 8
     slice: FoodBreadSausageSlice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 45
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 10
-        - ReagentId: Vitamin
-          Quantity: 5
-        - ReagentId: Protein
-          Quantity: 5
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 100
+      - ReagentId: Protein
+        Quantity: 10
   - type: Tag
     tags:
     - Meat
@@ -496,17 +467,13 @@
   - type: Sprite
     layers:
     - state: sausage-slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 10
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 2
-        - ReagentId: Vitamin
-          Quantity: 1
-        - ReagentId: Protein
-          Quantity: 1
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 12.5
+      - ReagentId: Protein
+        Quantity: 1.25
   - type: Tag
     tags:
     - Meat
@@ -527,16 +494,17 @@
     layers:
     - state: spidermeat
   - type: SliceableFood
+    count: 8
     slice: FoodBreadMeatSpiderSlice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 45
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 30
-        - ReagentId: Vitamin
-          Quantity: 5
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 104
+      - ReagentId: Protein
+        Quantity: 4
+      - ReagentId: Vitamin
+        Quantity: 4
   - type: Tag
     tags:
     - Meat
@@ -556,15 +524,15 @@
   - type: Sprite
     layers:
     - state: spidermeat-slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 12
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 6
-        - ReagentId: Vitamin
-          Quantity: 1.2
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 13
+      - ReagentId: Protein
+        Quantity: 0.5
+      - ReagentId: Vitamin
+        Quantity: 0.5
   - type: Tag
     tags:
     - Meat
@@ -585,21 +553,20 @@
     layers:
     - state: tofu
   - type: SliceableFood
+    count: 8
     slice: FoodBreadTofuSlice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 48
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 30
-        - ReagentId: Protein
-          Quantity: 12
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 90
+      - ReagentId: Protein
+        Quantity: 10
 # Tastes like bread, tofu.
 
 - type: entity
@@ -615,20 +582,18 @@
   - type: Sprite
     layers:
     - state: tofu-slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 10
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 6
-        - ReagentId: Vitamin
-          Quantity: 2.4
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 11.25
+      - ReagentId: Protein
+        Quantity: 1.25
 
 - type: entity
   name: xeno meat bread
@@ -644,16 +609,17 @@
     layers:
     - state: xenomeat
   - type: SliceableFood
+    count: 8
     slice: FoodBreadMeatXenoSlice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 45
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 30
-        - ReagentId: Vitamin
-          Quantity: 5
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 104
+      - ReagentId: Protein
+        Quantity: 4
+      - ReagentId: Vitamin
+        Quantity: 4
   - type: Tag
     tags:
     - Meat
@@ -673,15 +639,15 @@
   - type: Sprite
     layers:
     - state: xenomeat-slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 10
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 6
-        - ReagentId: Vitamin
-          Quantity: 1.2
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 13
+      - ReagentId: Protein
+        Quantity: 0.5
+      - ReagentId: Vitamin
+        Quantity: 0.5
   - type: Tag
     tags:
     - Meat
@@ -701,19 +667,17 @@
   - type: SliceableFood
     count: 12
     slice: FoodBreadBaguetteSlice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 15
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 6
-        - ReagentId: Vitamin
-          Quantity: 1
-        - ReagentId: TableSalt
-          Quantity: 1
-        - ReagentId: Blackpepper
-          Quantity: 1
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 78
+      - ReagentId: Vitamin
+        Quantity: 3
+      - ReagentId: TableSalt
+        Quantity: 3
+      - ReagentId: Blackpepper
+        Quantity: 3
   - type: Clothing
     slots: [ BELT ]
     equippedPrefix: baguette
@@ -766,21 +730,19 @@
       - state: baguette-cotton-inhand-left
       right:
       - state: baguette-cotton-inhand-right
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 15
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 3
-        - ReagentId: Fiber
-          Quantity: 3
-        - ReagentId: Vitamin
-          Quantity: 1
-        - ReagentId: TableSalt
-          Quantity: 1
-        - ReagentId: Blackpepper
-          Quantity: 1
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 39
+      - ReagentId: Fiber
+        Quantity: 39
+      - ReagentId: Vitamin
+        Quantity: 0.6
+      - ReagentId: TableSalt
+        Quantity: 0.6
+      - ReagentId: Blackpepper
+        Quantity: 0.6
 
 - type: entity
   name: crostini
@@ -790,24 +752,22 @@
   components:
   - type: Sprite
     state: crostini
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 2
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 0.5
-        - ReagentId: Vitamin
-          Quantity: 0.1
-        - ReagentId: TableSalt
-          Quantity: 0.1
-        - ReagentId: Blackpepper
-          Quantity: 0.1
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 6.5
+      - ReagentId: Vitamin
+        Quantity: 0.05
+      - ReagentId: TableSalt
+        Quantity: 0.05
+      - ReagentId: Blackpepper
+        Quantity: 0.05
 
 - type: entity
   parent: FoodBreadBaguetteSlice
@@ -824,21 +784,19 @@
     - Bread
     - Slice
     - ClothMade
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 2
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 0.25
-        - ReagentId: Fiber
-          Quantity: 0.25
-        - ReagentId: Vitamin
-          Quantity: 0.1
-        - ReagentId: TableSalt
-          Quantity: 0.1
-        - ReagentId: Blackpepper
-          Quantity: 0.1
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 3.25
+      - ReagentId: Fiber
+        Quantity: 3.25
+      - ReagentId: Vitamin
+        Quantity: 0.05
+      - ReagentId: TableSalt
+        Quantity: 0.05
+      - ReagentId: Blackpepper
+        Quantity: 0.05
 
 - type: entity
   name: buttered toast
@@ -852,25 +810,23 @@
       - bread
   - type: Sprite
     state: buttered-toast
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 10
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 5
-        - ReagentId: Vitamin
-          Quantity: 1
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 10
+      - ReagentId: Butter
+        Quantity: 2.5
 # Tastes like bread, butter.
 
 - type: entity
   name: french toast
-  parent: FoodBreadSliceBase
+  parent: [SolutionTiny, FoodBreadSliceBase]
   id: FoodBreadFrenchToast
   description: A slice of bread soaked in a beaten egg mixture.
   components:
@@ -880,25 +836,27 @@
       - bread
   - type: Sprite
     state: french-toast
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 10
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 4
-        - ReagentId: Vitamin
-          Quantity: 2
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 10
+      - ReagentId: EggCooked
+        Quantity: 6
+      - ReagentId: Protein
+        Quantity: 6
+      - ReagentId: Vitamin
+        Quantity: 3
 # Tastes like bread, butter.
 
 - type: entity
   name: garlic bread
-  parent: FoodBreadSliceBase
+  parent: [SolutionTiny, FoodBreadSliceBase]
   id: FoodBreadGarlicSlice
   description: Alas, it is limited.
   components:
@@ -909,25 +867,27 @@
   - type: Sprite
     layers:
     - state: garlic-slice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 15
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 6
-        - ReagentId: Vitamin
-          Quantity: 5
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 16
+      - ReagentId: Vitamin
+        Quantity: 4
+      - ReagentId: Allicin
+        Quantity: 4
+      - ReagentId: Butter
+        Quantity: 2.5
 # Tastes like garlic, Italy.
 
 - type: entity
   name: jelly toast
-  parent: FoodBreadSliceBase
+  parent: [SolutionTiny, FoodBreadSliceBase]
   id: FoodBreadJellySlice
   description: As if science are gonna give up their slimes for toast!
   components:
@@ -938,20 +898,18 @@
   - type: Sprite
     layers:
     - state: jelly-toast
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 10
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 4
-        - ReagentId: Vitamin
-          Quantity: 4
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 15
+      - ReagentId: Vitamin
+        Quantity: 5
 # Tastes like garlic, Italy.
 
 - type: entity
@@ -967,20 +925,18 @@
     tags:
     - UnguFood # macro edit - allow ungu to eat
     - Trash
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 15
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 4
-        - ReagentId: Mold
-          Quantity: 7
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 2.5
+      - ReagentId: Mold
+        Quantity: 10
 # Tastes like decaying fungus.
 
 - type: entity
   name: two slice
-  parent: FoodBreadSliceBase
+  parent: [SolutionTiny, FoodBreadSliceBase]
   id: FoodBreadTwoSlice
   description: Classy.
   components:
@@ -988,27 +944,24 @@
     layers:
     - state: two-slice
   - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 15
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 3
-        - ReagentId: Vitamin
-          Quantity: 2
-        - ReagentId: Wine
-          Quantity: 5
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 20
+      - ReagentId: Wine
+        Quantity: 5
 # Tastes like decaying fungus.
 
 - type: entity
   name: bread dog
   id: MobBreadDog
-  parent: EdibleBase
+  parent: [SolutionLarge, FoodBase]
   description: It's a bread. It's a dog. It's a... breaddog?
   components:
   - type: FlavorProfile
@@ -1016,18 +969,19 @@
     - meaty
     - bread
   - type: SliceableFood
+    count: 8
     slice: FoodBreadSausageSlice
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 45
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 10
-        - ReagentId: Vitamin
-          Quantity: 5
-        - ReagentId: Protein
-          Quantity: 5
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 105
+      - ReagentId: Vitamin
+        Quantity: 10
+      - ReagentId: Protein
+        Quantity: 10
+      - ReagentId: UncookedAnimalProteins
+        Quantity: 25
   - type: Sprite
     noRot: true
     drawdepth: Mobs
@@ -1089,7 +1043,7 @@
         Blunt: 1
 
 - type: entity
-  parent: FoodBreadBase
+  parent: [SolutionVeryTiny, FoodBreadSliceBase]
   id: FoodBreadNutriBatard
   name: nutri-bâtard
   description: bon 'pétite!
@@ -1134,10 +1088,8 @@
     size: Small
     storedOffset: -1,0
     heldPrefix: batard-cotton
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 26
-        reagents:
-        - ReagentId: Fiber
-          Quantity: 20
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Fiber
+        Quantity: 10
