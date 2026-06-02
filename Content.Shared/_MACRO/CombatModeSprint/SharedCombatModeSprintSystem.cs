@@ -9,12 +9,12 @@ using Robust.Shared.Player;
 
 namespace Content.Shared._MACRO.CombatModeSprint;
 
-public abstract class SharedCombatModeSprintSystem : EntitySystem
+public abstract partial class SharedCombatModeSprintSystem : EntitySystem
 {
-    [Dependency] private readonly MovementSpeedModifierSystem _movementSpeed = default!;
-    [Dependency] private readonly SharedCombatModeSystem _combatMode = default!;
-    [Dependency] private readonly DamageOnHighSpeedImpactSystem _impact = default!;
-    [Dependency] private readonly SharedPopupSystem _popup = default!;
+    [Dependency] private MovementSpeedModifierSystem _movementSpeed = default!;
+    [Dependency] private SharedCombatModeSystem _combatMode = default!;
+    [Dependency] private DamageOnHighSpeedImpactSystem _impact = default!;
+    [Dependency] private SharedPopupSystem _popup = default!;
 
     /// <summary>
     /// Last combat-mode state we applied impact collide settings for (avoids redundant Dirty).
