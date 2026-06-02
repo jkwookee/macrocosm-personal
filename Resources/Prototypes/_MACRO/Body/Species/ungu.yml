@@ -418,13 +418,14 @@
   components:
   - type: Solution
     id: stomach
-    solution:
-      maxVol: 200
-      food:
-        maxVol: 15
-        reagents:
-        - ReagentId: UncookedAnimalProteins
-          Quantity: 12
+    components:
+    - type: Solution
+        maxVol: 200
+        food:
+          maxVol: 15
+          reagents:
+          - ReagentId: UncookedAnimalProteins
+            Quantity: 12
 
 - type: entity
   parent: [ OrganBaseLiver, OrganUnguInternal, OrganHumanMetabolizer ]
