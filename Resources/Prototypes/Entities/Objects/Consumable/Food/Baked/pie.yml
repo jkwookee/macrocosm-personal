@@ -477,14 +477,14 @@
     flavors:
       - mushroom
   - type: Sprite
+    layers:
+    - state: tin
+    - state: amanita
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
-    layers:
-    - state: tin
-    - state: amanita
   - type: Solution
     solution:
       reagents:
