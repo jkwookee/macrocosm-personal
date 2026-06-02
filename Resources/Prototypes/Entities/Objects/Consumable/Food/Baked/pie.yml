@@ -536,14 +536,14 @@
       - mushroom
   - type: Sprite
     state: plump
+    layers:
+    - state: tin
+    - state: plump
   # macro edit start - allow ungu to eat
   - type: Tag
     tags:
     - UnguFood
   # macro edit end
-    layers:
-    - state: tin
-    - state: plump
   - type: SliceableFood
     slice: FoodPiePlumpSlice
 
