@@ -411,6 +411,7 @@
     id: stomach
     components:
     - type: Solution
+      solution:
         maxVol: 200
 
 - type: entity
