@@ -403,16 +403,13 @@
       - Mushroom
 
 - type: entity
-  parent: [SolutionStomach]
+  parent: SolutionStomach
   id: SolutionStomachUngu
   categories: [ HideSpawnMenu ]
   components:
   - type: Solution
-    id: stomach
-    components:
-    - type: Solution
-      solution:
-        maxVol: 200
+    solution:
+      maxVol: 200
 
 - type: entity
   parent: [ OrganBaseLiver, OrganUnguInternal, OrganHumanMetabolizer ]
