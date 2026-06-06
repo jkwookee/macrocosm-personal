@@ -385,7 +385,7 @@
   components:
   - type: SolutionContainerManager
     solutions:
-      - SolutionStomachUngu
+    - SolutionStomachUngu
   - type: Stomach
     isSpecialDigestibleExclusive: true
     specialDigestible:
