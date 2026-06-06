@@ -386,15 +386,6 @@
   - type: Solution
     solutions:
       - SolutionStomachUngu
-  # - type: SolutionContainerManager
-  #   solutions:
-  #     stomach:
-  #       maxVol: 200
-  #     food:
-  #       maxVol: 15
-  #       reagents:
-  #       - ReagentId: UncookedAnimalProteins
-  #         Quantity: 12
   - type: Stomach
     isSpecialDigestibleExclusive: true
     specialDigestible:
@@ -421,11 +412,6 @@
     components:
     - type: Solution
         maxVol: 200
-        food:
-          maxVol: 15
-          reagents:
-          - ReagentId: UncookedAnimalProteins
-            Quantity: 12
 
 - type: entity
   parent: [ OrganBaseLiver, OrganUnguInternal, OrganHumanMetabolizer ]
