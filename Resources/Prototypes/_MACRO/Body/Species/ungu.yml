@@ -383,7 +383,7 @@
   id: OrganUnguStomach
   description: A lot going on here.
   components:
-  - type: SolutionContainerManager
+  - type: SolutionManager
     solutions:
     - SolutionStomachUngu
   - type: Stomach
