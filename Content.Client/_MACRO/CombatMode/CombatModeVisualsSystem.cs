@@ -1,7 +1,6 @@
 using Content.Client.DamageState;
 using Content.Shared._MACRO.CombatMode;
 using Content.Shared.CombatMode;
-using Content.Shared.Mobs;
 using Content.Shared.Mobs.Systems;
 using Robust.Client.GameObjects;
 
@@ -9,7 +8,6 @@ namespace Content.Client._MACRO.CombatMode;
 
 public sealed partial class CombatModeVisualsSystem : SharedCombatModeVisualsSystem
 {
-    [Dependency] private AppearanceSystem _appearance = default!;
     [Dependency] private MobStateSystem _mobState = default!;
     [Dependency] private SpriteSystem _sprite = default!;
 
@@ -17,29 +15,7 @@ public sealed partial class CombatModeVisualsSystem : SharedCombatModeVisualsSys
     {
         base.Initialize();
 
-        SubscribeLocalEvent<CombatModeVisualsComponent, ToggleCombatActionEvent>(
-            OnCombatToggle,
-            after: [typeof(SharedCombatModeSystem)]);
-        SubscribeLocalEvent<CombatModeVisualsComponent, MobStateChangedEvent>(OnMobStateChanged);
         SubscribeLocalEvent<CombatModeVisualsComponent, AppearanceChangeEvent>(OnAppearanceChanged);
-    }
-
-    private void OnCombatToggle(Entity<CombatModeVisualsComponent> ent, ref ToggleCombatActionEvent args)
-    {
-        ChangeAppearance(ent);
-    }
-
-    private void OnMobStateChanged(Entity<CombatModeVisualsComponent> ent, ref MobStateChangedEvent args)
-    {
-        ChangeAppearance(ent);
-    }
-
-    private void ChangeAppearance(EntityUid ent)
-    {
-        if (!TryComp<SpriteComponent>(ent, out var sprite))
-            return;
-
-        _appearance.OnChangeData(ent, sprite);
     }
 
     private void OnAppearanceChanged(Entity<CombatModeVisualsComponent> ent, ref AppearanceChangeEvent args)
@@ -52,6 +28,9 @@ public sealed partial class CombatModeVisualsSystem : SharedCombatModeVisualsSys
         // make sure we can sync the frames
         if (!_sprite.TryGetLayer((ent, args.Sprite), CombatModeVisualLayers.Combat, out var combatLayer, true))
             return;
+
+        if (ent.Comp.Sprite is { })
+            _sprite.LayerSetSprite(combatLayer, ent.Comp.Sprite);
 
         // turn on combat visuals if the mob is alive and in combat mode. otherwise turn them off
         _sprite.LayerSetVisible(combatLayer, _mobState.IsAlive(ent) && combat.IsInCombatMode);
