@@ -70,3 +70,25 @@
     - map: ["enum.CombatModeVisualsVisuals.Combat"]
       state: combat
       visible: false
+
+- type: entity
+  id: BaseCombatModeSpeciesAppearance
+  parent:
+  - InventoryBase
+  - BaseCombatModeSpeciesLayers
+  abstract: true
+  save: false
+  components:
+  - type: Body
+  - type: VisualBody
+  - type: Hands
+  - type: ComplexInteraction
+  - type: ContainerContainer
+  - type: Appearance
+  - type: HideableHumanoidLayers
+  - type: UserInterface
+    interfaces:
+      enum.HumanoidMarkingModifierKey.Key:
+        type: HumanoidMarkingModifierBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface

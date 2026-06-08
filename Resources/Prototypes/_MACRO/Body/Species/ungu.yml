@@ -149,8 +149,7 @@
 - type: entity
   parent:
   - AppearanceUngu
-  - BaseSpeciesMobOrganic
-  - BaseCombatModeSpeciesLayers
+  - BaseCombatModeSpeciesMobOrganic
   id: MobUngu
   name: Urist McHooves
   components:
