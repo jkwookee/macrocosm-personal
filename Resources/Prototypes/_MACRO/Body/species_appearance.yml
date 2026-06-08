@@ -67,7 +67,7 @@
       visible: false
     
     # Combat visuals
-    - map: ["enum.CombatModeVisualsVisuals.Combat"]
+    - map: ["enum.CombatModeVisuals.Combat"]
       state: combat
       visible: false
 
