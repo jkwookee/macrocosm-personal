@@ -150,6 +150,7 @@
   parent:
   - AppearanceUngu
   - BaseSpeciesMobOrganic
+  - BaseCombatModeSpeciesLayers
   id: MobUngu
   name: Urist McHooves
   components:
@@ -164,6 +165,7 @@
     stunSeconds: 1
     doImpactDamage: true
     beginCombatMessage: "ungu-begin-combat-popup"
+  - type: CombatModeVisuals
   - type: CombatMode
   - type: MeleeWeapon
     attackRate: 0.6
