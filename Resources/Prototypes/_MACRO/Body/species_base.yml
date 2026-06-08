@@ -6,8 +6,8 @@
   - MobDamageable
   - MobPolymorphable
   - StripableInventoryBase
-  - BaseCombatModeSpeciesAppearance
-  id: BaseCombatModeSpeciesMob
+  - BaseUnguAppearance
+  id: BaseUnguMob
   save: false
   components:
   - type: DamageVisuals
@@ -165,8 +165,8 @@
   - MobRespirator
   - MobAtmosStandard
   - MobFlammable
-  - BaseCombatModeSpeciesMob
-  id: BaseCombatModeSpeciesMobOrganic
+  - BaseUnguMob
+  id: BaseUnguMobOrganic
   save: false
   components:
   - type: Hunger

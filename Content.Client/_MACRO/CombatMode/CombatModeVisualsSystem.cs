@@ -50,7 +50,7 @@ public sealed partial class CombatModeVisualsSystem : SharedCombatModeVisualsSys
             return;
 
         // make sure we can sync the frames
-        if (!_sprite.TryGetLayer((ent, args.Sprite), CombatModeVisualsVisuals.Combat, out var combatLayer, true))
+        if (!_sprite.TryGetLayer((ent, args.Sprite), CombatModeVisualLayers.Combat, out var combatLayer, true))
             return;
 
         // turn on combat visuals if the mob is alive and in combat mode. otherwise turn them off

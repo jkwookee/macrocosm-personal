@@ -5,7 +5,7 @@ namespace Content.Shared._MACRO.CombatMode;
 public abstract partial class SharedCombatModeVisualsSystem : EntitySystem
 {
     [Serializable, NetSerializable]
-    public enum CombatModeVisualsVisuals : byte
+    public enum CombatModeVisualLayers : byte
     {
         Combat
     }

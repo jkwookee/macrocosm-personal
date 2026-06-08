@@ -1,6 +1,6 @@
 - type: entity
   abstract: true
-  id: BaseCombatModeSpeciesLayers
+  id: BaseUnguLayers
   components:
   - type: Sprite
     layers:
@@ -67,15 +67,16 @@
       visible: false
     
     # Combat visuals
-    - map: ["enum.CombatModeVisuals.Combat"]
-      state: combat
+    - map: ["enum.CombatModeVisualLayers.Combat"]
+      sprite: _MACRO/Mobs/Species/Ungu/parts.rsi
+      state: angry
       visible: false
 
 - type: entity
-  id: BaseCombatModeSpeciesAppearance
+  id: BaseUnguAppearance
   parent:
   - InventoryBase
-  - BaseCombatModeSpeciesLayers
+  - BaseUnguLayers
   abstract: true
   save: false
   components:
